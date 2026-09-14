@@ -1,0 +1,16 @@
+1. Lapisan mana yang paling saya pahami?
+Saya paling memahami Lapisan Antarmuka (Aplikasi), karena bagian ini berhubungan langsung dengan tampilan visual dan interaksi langsung dengan pengguna akhir, sehingga proses keluar-masuknya data lebih mudah dibayangkan.
+
+2. Lapisan mana yang masih saya campur adukkan?
+Saya masih sering mencampuradukkan Lapisan Data dengan Lapisan Pemrosesan (Backend/Model). Kadang batas antara tahap penyimpanan struktur data di database dan tahap analisis data oleh algoritma cerdas masih terasa tumpang tindih.
+
+3. Bukti apa yang membuat sebuah sistem layak disebut cerdas dan bertanggung jawab?
+Sebuah sistem bisa disebut cerdas dan bertanggung jawab jika terbukti memiliki:
+
+Transparan: Bisa menjelaskan alasan di balik keputusan atau output yang dihasilkannya (tidak disembunyikan).
+
+Adil: Memberikan hasil yang akurat tanpa mendiskriminasi pihak atau kelompok tertentu.
+
+Aman: Menjaga privasi data pengguna dan memiliki sistem keamanan yang baik.
+
+Ada Kendali Manusia: Tetap melibatkan pengawasan manusia untuk keputusan-keputusan yang berisiko tinggi.
