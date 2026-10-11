@@ -1,0 +1,59 @@
+{
+  "train_rows": 1171,
+  "test_rows": 293,
+  "train_ratio": 0.799863387978142,
+  "test_ratio": 0.20013661202185792,
+  "accuracy": 0.5426621160409556,
+  "macro_f1": 0.49168685131376777,
+  "dummy_accuracy": 0.6040955631399317,
+  "dummy_macro_f1": 0.251063829787234,
+  "classes": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "class_report": {
+    "Low": {
+      "precision": 0.4421052631578947,
+      "recall": 0.5915492957746479,
+      "f1-score": 0.5060240963855421,
+      "support": 71.0
+    },
+    "Medium": {
+      "precision": 0.7279411764705882,
+      "recall": 0.559322033898305,
+      "f1-score": 0.6325878594249201,
+      "support": 177.0
+    },
+    "High": {
+      "precision": 0.2903225806451613,
+      "recall": 0.4,
+      "f1-score": 0.3364485981308411,
+      "support": 45.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      42,
+      23,
+      6
+    ],
+    [
+      40,
+      99,
+      38
+    ],
+    [
+      13,
+      14,
+      18
+    ]
+  ],
+  "predicted_classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "train_product_ids": 1081,
+  "test_product_ids": 269
+}

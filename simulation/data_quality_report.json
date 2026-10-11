@@ -3,6 +3,1087 @@
   "orders_rows": 25000,
   "products_rows": 140,
   "monthly_rows": 75,
+  "column_summaries": {
+    "customers.csv": {
+      "customer_id": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 8000,
+        "top_values": [
+          {
+            "value": "C00001",
+            "count": 1
+          },
+          {
+            "value": "C00002",
+            "count": 1
+          },
+          {
+            "value": "C00003",
+            "count": 1
+          },
+          {
+            "value": "C00004",
+            "count": 1
+          },
+          {
+            "value": "C00005",
+            "count": 1
+          }
+        ]
+      },
+      "country": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 20,
+        "top_values": [
+          {
+            "value": "United States",
+            "count": 2509
+          },
+          {
+            "value": "United Kingdom",
+            "count": 800
+          },
+          {
+            "value": "India",
+            "count": 711
+          },
+          {
+            "value": "Germany",
+            "count": 637
+          },
+          {
+            "value": "France",
+            "count": 483
+          }
+        ]
+      },
+      "age": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 57,
+        "min": 18.0,
+        "max": 75.0,
+        "mean": 35.62,
+        "median": 35.0
+      },
+      "gender": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 3,
+        "top_values": [
+          {
+            "value": "Female",
+            "count": 3895
+          },
+          {
+            "value": "Male",
+            "count": 3866
+          },
+          {
+            "value": "Other",
+            "count": 239
+          }
+        ]
+      },
+      "membership_tier": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 4,
+        "top_values": [
+          {
+            "value": "Free",
+            "count": 4443
+          },
+          {
+            "value": "Silver",
+            "count": 1736
+          },
+          {
+            "value": "Gold",
+            "count": 1177
+          },
+          {
+            "value": "Platinum",
+            "count": 644
+          }
+        ]
+      },
+      "registration_date": {
+        "dtype": "datetime64[us]",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 1862,
+        "min": "2011-08-03 00:00:00",
+        "max": "2026-04-01 00:00:00"
+      },
+      "total_orders": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 79,
+        "min": 1.0,
+        "max": 79.0,
+        "mean": 16.55,
+        "median": 12.0
+      },
+      "total_spend_usd": {
+        "dtype": "float64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7864,
+        "min": 4.89,
+        "max": 61282.48,
+        "mean": 1558.64,
+        "median": 845.7
+      },
+      "avg_order_value_usd": {
+        "dtype": "float64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 6365,
+        "min": 5.0,
+        "max": 1051.73,
+        "mean": 94.85,
+        "median": 72.27
+      },
+      "days_since_last_purchase": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 336,
+        "min": 0.0,
+        "max": 582.0,
+        "mean": 59.58,
+        "median": 41.0
+      },
+      "preferred_category": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 14,
+        "top_values": [
+          {
+            "value": "Electronics",
+            "count": 1505
+          },
+          {
+            "value": "Clothing & Apparel",
+            "count": 1294
+          },
+          {
+            "value": "Home & Kitchen",
+            "count": 916
+          },
+          {
+            "value": "Books",
+            "count": 624
+          },
+          {
+            "value": "Beauty & Personal Care",
+            "count": 599
+          }
+        ]
+      },
+      "preferred_device": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 3,
+        "top_values": [
+          {
+            "value": "Mobile",
+            "count": 4351
+          },
+          {
+            "value": "Desktop",
+            "count": 2659
+          },
+          {
+            "value": "Tablet",
+            "count": 990
+          }
+        ]
+      },
+      "preferred_payment_method": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7,
+        "top_values": [
+          {
+            "value": "Credit Card",
+            "count": 3049
+          },
+          {
+            "value": "Debit Card",
+            "count": 1750
+          },
+          {
+            "value": "PayPal",
+            "count": 1437
+          },
+          {
+            "value": "UPI / Digital Wallet",
+            "count": 813
+          },
+          {
+            "value": "Buy Now Pay Later",
+            "count": 448
+          }
+        ]
+      },
+      "acquisition_channel": {
+        "dtype": "str",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 6,
+        "top_values": [
+          {
+            "value": "Organic Search",
+            "count": 2194
+          },
+          {
+            "value": "Social Media",
+            "count": 1758
+          },
+          {
+            "value": "Email Campaign",
+            "count": 1494
+          },
+          {
+            "value": "Paid Ad",
+            "count": 1255
+          },
+          {
+            "value": "Direct",
+            "count": 826
+          }
+        ]
+      },
+      "reviews_given": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 29,
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 3.23,
+        "median": 2.0
+      },
+      "avg_review_score": {
+        "dtype": "float64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 33,
+        "min": 1.8,
+        "max": 5.0,
+        "mean": 4.11,
+        "median": 4.2
+      },
+      "returns_made": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 12,
+        "min": 0.0,
+        "max": 11.0,
+        "mean": 0.85,
+        "median": 0.0
+      },
+      "wishlist_items": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 37,
+        "min": 0.0,
+        "max": 41.0,
+        "mean": 4.46,
+        "median": 3.0
+      },
+      "newsletter_subscribed": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.62,
+        "median": 1.0
+      },
+      "churned": {
+        "dtype": "int64",
+        "non_null": 8000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.09,
+        "median": 0.0
+      }
+    },
+    "orders.csv": {
+      "order_id": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 25000,
+        "top_values": [
+          {
+            "value": "O000001",
+            "count": 1
+          },
+          {
+            "value": "O000002",
+            "count": 1
+          },
+          {
+            "value": "O000003",
+            "count": 1
+          },
+          {
+            "value": "O000004",
+            "count": 1
+          },
+          {
+            "value": "O000005",
+            "count": 1
+          }
+        ]
+      },
+      "customer_id": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7663,
+        "top_values": [
+          {
+            "value": "C03007",
+            "count": 12
+          },
+          {
+            "value": "C05445",
+            "count": 11
+          },
+          {
+            "value": "C04601",
+            "count": 11
+          },
+          {
+            "value": "C03708",
+            "count": 11
+          },
+          {
+            "value": "C01297",
+            "count": 11
+          }
+        ]
+      },
+      "order_date": {
+        "dtype": "datetime64[us]",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2281,
+        "min": "2020-01-01 00:00:00",
+        "max": "2026-03-30 00:00:00"
+      },
+      "year": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7,
+        "min": 2020.0,
+        "max": 2026.0,
+        "mean": 2022.65,
+        "median": 2023.0
+      },
+      "month": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 12,
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.35,
+        "median": 6.0
+      },
+      "quarter": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 4,
+        "top_values": [
+          {
+            "value": "Q1",
+            "count": 6963
+          },
+          {
+            "value": "Q4",
+            "count": 6157
+          },
+          {
+            "value": "Q2",
+            "count": 5942
+          },
+          {
+            "value": "Q3",
+            "count": 5938
+          }
+        ]
+      },
+      "day_of_week": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7,
+        "top_values": [
+          {
+            "value": "Monday",
+            "count": 3658
+          },
+          {
+            "value": "Sunday",
+            "count": 3628
+          },
+          {
+            "value": "Saturday",
+            "count": 3626
+          },
+          {
+            "value": "Tuesday",
+            "count": 3563
+          },
+          {
+            "value": "Thursday",
+            "count": 3560
+          }
+        ]
+      },
+      "product_name": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 140,
+        "top_values": [
+          {
+            "value": "Portable Charger 20000mAh",
+            "count": 497
+          },
+          {
+            "value": "Smart Plug 4-Pack",
+            "count": 466
+          },
+          {
+            "value": "Gaming Mouse RGB",
+            "count": 461
+          },
+          {
+            "value": "Webcam 4K",
+            "count": 452
+          },
+          {
+            "value": "Smart Watch Series 5",
+            "count": 451
+          }
+        ]
+      },
+      "category": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 14,
+        "top_values": [
+          {
+            "value": "Electronics",
+            "count": 4526
+          },
+          {
+            "value": "Clothing & Apparel",
+            "count": 3981
+          },
+          {
+            "value": "Home & Kitchen",
+            "count": 3068
+          },
+          {
+            "value": "Books",
+            "count": 1962
+          },
+          {
+            "value": "Sports & Outdoors",
+            "count": 1761
+          }
+        ]
+      },
+      "unit_price_usd": {
+        "dtype": "float64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 12013,
+        "min": 3.36,
+        "max": 697.03,
+        "mean": 68.12,
+        "median": 51.53
+      },
+      "quantity": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 5,
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 1.7,
+        "median": 1.0
+      },
+      "subtotal_usd": {
+        "dtype": "float64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 14692,
+        "min": 3.36,
+        "max": 2636.45,
+        "mean": 116.19,
+        "median": 72.39
+      },
+      "discount_pct": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 9,
+        "min": 0.0,
+        "max": 50.0,
+        "mean": 5.63,
+        "median": 0.0
+      },
+      "discount_amount_usd": {
+        "dtype": "float64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 3636,
+        "min": 0.0,
+        "max": 421.58,
+        "mean": 6.35,
+        "median": 0.0
+      },
+      "shipping_fee_usd": {
+        "dtype": "float64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 5,
+        "min": 0.0,
+        "max": 9.99,
+        "mean": 3.87,
+        "median": 3.99
+      },
+      "tax_pct": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7,
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 10.68,
+        "median": 10.0
+      },
+      "tax_amount_usd": {
+        "dtype": "float64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 4564,
+        "min": 0.0,
+        "max": 303.99,
+        "mean": 11.75,
+        "median": 6.22
+      },
+      "total_amount_usd": {
+        "dtype": "float64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 15367,
+        "min": 3.0,
+        "max": 2730.88,
+        "mean": 125.46,
+        "median": 78.78
+      },
+      "payment_method": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7,
+        "top_values": [
+          {
+            "value": "Credit Card",
+            "count": 9522
+          },
+          {
+            "value": "Debit Card",
+            "count": 5495
+          },
+          {
+            "value": "PayPal",
+            "count": 4528
+          },
+          {
+            "value": "UPI / Digital Wallet",
+            "count": 2538
+          },
+          {
+            "value": "Buy Now Pay Later",
+            "count": 1504
+          }
+        ]
+      },
+      "device_used": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 3,
+        "top_values": [
+          {
+            "value": "Mobile",
+            "count": 13989
+          },
+          {
+            "value": "Desktop",
+            "count": 8090
+          },
+          {
+            "value": "Tablet",
+            "count": 2921
+          }
+        ]
+      },
+      "delivery_days": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 8,
+        "min": 1.0,
+        "max": 14.0,
+        "mean": 4.18,
+        "median": 4.0
+      },
+      "delivery_date": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2290,
+        "top_values": [
+          {
+            "value": "2022-02-07",
+            "count": 22
+          },
+          {
+            "value": "2025-01-30",
+            "count": 21
+          },
+          {
+            "value": "2025-09-06",
+            "count": 21
+          },
+          {
+            "value": "2024-09-13",
+            "count": 21
+          },
+          {
+            "value": "2021-08-05",
+            "count": 21
+          }
+        ]
+      },
+      "order_status": {
+        "dtype": "str",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 4,
+        "top_values": [
+          {
+            "value": "Delivered",
+            "count": 20497
+          },
+          {
+            "value": "Returned",
+            "count": 2020
+          },
+          {
+            "value": "Cancelled",
+            "count": 1456
+          },
+          {
+            "value": "Processing",
+            "count": 1027
+          }
+        ]
+      },
+      "returned": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.08,
+        "median": 0.0
+      },
+      "customer_rating": {
+        "dtype": "float64",
+        "non_null": 9251,
+        "missing": 15749,
+        "missing_pct": 63.0,
+        "unique": 35,
+        "min": 1.5,
+        "max": 5.0,
+        "mean": 4.0,
+        "median": 4.1
+      },
+      "session_duration_minutes": {
+        "dtype": "float64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 921,
+        "min": 0.3,
+        "max": 361.2,
+        "mean": 16.78,
+        "median": 12.1
+      },
+      "pages_viewed_before_purchase": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 24,
+        "min": 1.0,
+        "max": 24.0,
+        "mean": 6.51,
+        "median": 5.0
+      },
+      "is_repeat_customer": {
+        "dtype": "int64",
+        "non_null": 25000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.65,
+        "median": 1.0
+      }
+    },
+    "product_summary.csv": {
+      "category": {
+        "dtype": "str",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 14,
+        "top_values": [
+          {
+            "value": "Automotive",
+            "count": 10
+          },
+          {
+            "value": "Beauty & Personal Care",
+            "count": 10
+          },
+          {
+            "value": "Books",
+            "count": 10
+          },
+          {
+            "value": "Clothing & Apparel",
+            "count": 10
+          },
+          {
+            "value": "Electronics",
+            "count": 10
+          }
+        ]
+      },
+      "product_name": {
+        "dtype": "str",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 140,
+        "top_values": [
+          {
+            "value": "Air Freshener",
+            "count": 1
+          },
+          {
+            "value": "Car Phone Mount",
+            "count": 1
+          },
+          {
+            "value": "Car Vacuum Cleaner",
+            "count": 1
+          },
+          {
+            "value": "Dashcam 4K",
+            "count": 1
+          },
+          {
+            "value": "Jump Starter Pack",
+            "count": 1
+          }
+        ]
+      },
+      "total_orders": {
+        "dtype": "int64",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 108,
+        "min": 38.0,
+        "max": 466.0,
+        "mean": 168.17,
+        "median": 142.5
+      },
+      "total_revenue_usd": {
+        "dtype": "float64",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 140,
+        "min": 3231.83,
+        "max": 124113.88,
+        "mean": 21135.67,
+        "median": 10362.08
+      },
+      "avg_price": {
+        "dtype": "float64",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 137,
+        "min": 20.0,
+        "max": 143.34,
+        "mean": 60.44,
+        "median": 55.05
+      },
+      "avg_rating": {
+        "dtype": "float64",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 40,
+        "min": 3.6,
+        "max": 4.23,
+        "mean": 4.0,
+        "median": 4.01
+      },
+      "return_rate": {
+        "dtype": "float64",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 15,
+        "min": 3.0,
+        "max": 17.0,
+        "mean": 8.75,
+        "median": 8.0
+      },
+      "avg_discount_pct": {
+        "dtype": "float64",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 112,
+        "min": 3.31,
+        "max": 7.75,
+        "mean": 5.58,
+        "median": 5.58
+      },
+      "avg_delivery_days": {
+        "dtype": "float64",
+        "non_null": 140,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 72,
+        "min": 3.43,
+        "max": 4.86,
+        "mean": 4.17,
+        "median": 4.16
+      }
+    },
+    "monthly_revenue.csv": {
+      "year": {
+        "dtype": "int64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7,
+        "min": 2020.0,
+        "max": 2026.0,
+        "mean": 2022.64,
+        "median": 2023.0
+      },
+      "month": {
+        "dtype": "int64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 12,
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.32,
+        "median": 6.0
+      },
+      "quarter": {
+        "dtype": "str",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 4,
+        "top_values": [
+          {
+            "value": "Q1",
+            "count": 21
+          },
+          {
+            "value": "Q2",
+            "count": 18
+          },
+          {
+            "value": "Q3",
+            "count": 18
+          },
+          {
+            "value": "Q4",
+            "count": 18
+          }
+        ]
+      },
+      "orders": {
+        "dtype": "int64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 45,
+        "min": 237.0,
+        "max": 316.0,
+        "mean": 273.29,
+        "median": 269.0
+      },
+      "revenue_usd": {
+        "dtype": "float64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 75,
+        "min": 25922.18,
+        "max": 44793.18,
+        "mean": 34468.35,
+        "median": 34020.34
+      },
+      "avg_order_value": {
+        "dtype": "float64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 74,
+        "min": 109.38,
+        "max": 153.29,
+        "mean": 126.05,
+        "median": 125.54
+      },
+      "avg_discount_pct": {
+        "dtype": "float64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 64,
+        "min": 4.34,
+        "max": 7.06,
+        "mean": 5.63,
+        "median": 5.59
+      },
+      "return_rate": {
+        "dtype": "float64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 1,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "unique_customers": {
+        "dtype": "int64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 44,
+        "min": 236.0,
+        "max": 309.0,
+        "mean": 268.4,
+        "median": 263.0
+      },
+      "new_customers": {
+        "dtype": "int64",
+        "non_null": 75,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 32,
+        "min": 76.0,
+        "max": 122.0,
+        "mean": 97.12,
+        "median": 97.0
+      }
+    }
+  },
   "customer_churn_rate_pct": 8.94,
   "order_return_rate_pct": 8.08,
   "orders_missing_rating_pct": 63.0,

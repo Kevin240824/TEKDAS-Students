@@ -1,0 +1,59 @@
+{
+  "source": "amazon.csv",
+  "input_rows": 1465,
+  "rows_dropped_invalid_rating": 1,
+  "clean_rows": 1464,
+  "columns": 18,
+  "duplicate_rows": 0,
+  "missing_values_before_cleaning": {
+    "product_id": 0,
+    "product_name": 0,
+    "category": 0,
+    "discounted_price": 0,
+    "actual_price": 0,
+    "discount_percentage": 0,
+    "rating": 0,
+    "rating_count": 2,
+    "about_product": 0,
+    "user_id": 0,
+    "user_name": 0,
+    "review_id": 0,
+    "review_title": 0,
+    "review_content": 0,
+    "img_link": 0,
+    "product_link": 0
+  },
+  "missing_rating_count_filled_with_median": 2,
+  "rating_count_median": 5179.0,
+  "numeric_values_missing_after_conversion": {
+    "discounted_price": 0,
+    "actual_price": 0,
+    "discount_percentage": 0,
+    "rating_count": 0
+  },
+  "missing_values_after_cleaning": {
+    "product_id": 0,
+    "product_name": 0,
+    "category": 0,
+    "discounted_price": 0,
+    "actual_price": 0,
+    "discount_percentage": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "about_product": 0,
+    "user_id": 0,
+    "user_name": 0,
+    "review_id": 0,
+    "review_title": 0,
+    "review_content": 0,
+    "img_link": 0,
+    "product_link": 0,
+    "main_category": 0,
+    "Rating_Class": 0
+  },
+  "rating_class_counts": {
+    "Medium": 883,
+    "Low": 354,
+    "High": 227
+  }
+}
